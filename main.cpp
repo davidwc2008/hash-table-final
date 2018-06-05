@@ -11,7 +11,6 @@ Hash Table Program
 #include <stdlib.h>
 #include <time.h>
 #include <fstream>
-#include <iomanip>
 
 using namespace std;
 
