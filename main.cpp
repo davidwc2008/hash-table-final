@@ -69,7 +69,8 @@ int main() {
 			print(table, length);
 		}else if (!strcmp(input, "DELETE")){
 			int ID;
-			cout << "Enter ID Number: " << endl;
+			// it is the user's responsibility to enter a correct id
+			cout << "Enter Valid ID Number: " << endl;
 			cin >> ID;
 			remove(ID, table, length); 
 		}else if (!strcmp(input, "GENERATE")) {
